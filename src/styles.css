@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.outerBox {
+  height: 400px;
+  width: 400px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.titleBar {
+  background: lightgray;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftArrow {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  border: 1px solid;
+  top: 30%;
+  left: 20%;
+}
+
+.rightArrow {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  border: 1px solid;
+  top: 30%;
+  left: 50%;
+}
+
+.showDate {
+  position: relative;
+  /* height: 10px;
+  width: 10px;
+  border: 1px solid; */
+  top: 30%;
+  left: 33%;
+}
+
+.showWeekDay {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 1.75em 1.5em;
+}
+
+.greyColor {
+  background: lightgray;
+}
